@@ -1,0 +1,5 @@
+com\mycompany\estadisticas\Estadisticas.class
+module-info.class
+com\mycompany\estadisticas\App.class
+com\mycompany\estadisticas\PrimaryController.class
+com\mycompany\estadisticas\Alumnos.class

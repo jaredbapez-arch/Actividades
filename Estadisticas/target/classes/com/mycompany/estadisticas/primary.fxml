@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171"
+      alignment="CENTER" spacing="8.0"
+      fx:controller="com.mycompany.estadisticas.PrimaryController">
+   <children>
+      <Label text="Lista Alumnos" />
+      <TextArea fx:id="txtAlumnos" prefRowCount="10" editable="false"/>
+      <Label text="Estadisticas"/>
+      <TextField fx:id="txtEstadisticas" editable="false"/>
+      <Label text="Porcentaje aprobados"/>
+      <TextField fx:id="porcentajeAprobado" editable="false"/>
+      <Label text="Porcentaje reprobados"/>
+      <TextField fx:id="porcentajeReprodados" editable="false"/>
+      <Label text="Mejor promedio"/>
+      <TextField fx:id="mejorPromedio" editable="false"/>
+      <Label text="Peor promedio"/>
+      <TextField fx:id="peorPromedio" editable="false"/>
+      <Label text="Promedio"/>
+      <TextField fx:id="Promedio" editable="false"/>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>

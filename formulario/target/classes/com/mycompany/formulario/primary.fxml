@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.geometry.Insets?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.formulario.PrimaryController">
+   <children>
+      <Label text="Control de Gastos" />
+      <Label text="Alimentacion"/>
+      <TextField fx:id="txtAlimentacion"/>
+      <Label text="Refrigerios"/>
+      <TextField fx:id="txtRefrigerios"/>
+      <Label text="Transporte"/>
+      <TextField fx:id="txtTransporte"/>
+      <Label text="Telefonia"/>
+      <TextField fx:id="txtTelefonia"/>
+      <Label text="Otros"/>
+      <TextField fx:id="txtOtros"/>
+      <Button text="Calcular" onAction="#calcular"/>
+      <Button text="Limpiar" onAction="#limpiar"/>
+      <Label text="Total"/>
+      <TextField fx:id="txtTotal" editable="false"/>
+      <Label text="GastomasAlto"/>
+      <TextField fx:id="txtMasAlto" editable="false"/>
+      <Button fx:id="primaryButton" text="Switch to Secondary View" onAction="#switchToSecondary"/>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
